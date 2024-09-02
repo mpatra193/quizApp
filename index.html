@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="intro.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h1>Welcome to the <span id="title">QuizWiz</span></h1>
+        </div>
+        <div class="introduction">
+            <h2>This quiz is designed to challenge your knowledge on technology,
+                and we’re excited to see how well you do.<br>Whether you’re here to test your skills or just to have
+                some fun,
+                you’re in the right place.</h2>
+        </div>
+
+        <div class="instructions" id="instruct">
+            <div class="instruct-heading">
+                <h3>Instructions:</h3>
+            </div>
+
+            <div class="instruct-body">
+                <ul>
+                    <li>You will be presented with a series of multiple-choice questions.</li>
+                    <li>Choose the answer that you believe is correct.</li>
+                    <li>If you answer a question correctly, you’ll earn 10 points and proceed to the next question.</li>
+                    <li>Don’t worry if you get an answer wrong – you’ll still learn the correct answer before moving on.</li>
+                    <li>Your total score will be displayed at the end of the quiz.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="goodLuck">
+            Are You Ready? Click the "Start Quiz" button below to begin. Good luck!
+        </div>
+
+        <div class="str-btn">
+            <a href="./ques01.html">
+                <div class="start">Start Quiz</div>
+            </a>
+        </div>
+    </div>
+    <script>
+        localStorage.removeItem("score");
+        localStorage.removeItem("quesAnswered");
+    </script>
+</body>
+
+</html>

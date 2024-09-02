@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1em;
+}
+.incorrect,.ans{
+    border: 1px solid black;
+    margin:1.2em;
+    padding:1.1em;
+    text-align: left;
+    border-radius: 1.4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.greetings{
+    background-color: rgb(135, 224, 135);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin:1.2em;
+    padding:1.1em;
+    text-align: left;
+    border-radius: 1.4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.correct{
+    color: green;
+    margin:1.2em;
+}
+.ques{
+    width: 100vw;
+    padding:1.1em;
+    text-align: left;
+    background-color: rgb(10, 10, 152);
+    color: aliceblue;
+    font-weight: 300;
+}
+.option{
+    width: 90vw;
+    margin: 1.1em;
+    margin: auto;
+}
+
+.option:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.invisible{
+    visibility:hidden;
+}
+.display{
+    display: none;
+}
+.no-hover:hover{
+    background-color: initial;
+}
+.nxt-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.next{
+    background-color: rgb(10, 10, 152);
+    padding: 0.5em;
+    border-radius: 1.1em;
+    width:20vw;
+    margin:2%;
+    color: aliceblue;
+
+}
+.next:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+#scoreCard{
+    border-radius: 2em;
+    height: 60vh;
+    width: 60vw;
+    background-color: rgb(10, 10, 152);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 5vmin;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#scoreCard > div {
+    margin: 1em;
+}
+#scoreDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.answers > div{
+    margin-top: 1%;
+}
+.answers{
+    box-sizing: border-box;
+    width: 100vw;
+}
